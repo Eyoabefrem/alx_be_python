@@ -32,8 +32,5 @@ class Library:
         self.books.append(book)
     
     def list_books(self):
-        if not self.books:
-            print("The library has no books.")
-        else:
             for book in self.books:
                 print(book.get_info())
